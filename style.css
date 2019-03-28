@@ -1,0 +1,83 @@
+body {
+  margin: 0px;
+  background: rgb(255, 255, 255);
+  color: rgb(20, 20, 20);
+  font-family: Helvetica, sans-serif;
+	font-size: 18px;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: Courier;
+  font-weight: bold;
+}
+h1 {
+	font-size: 40px;
+  color: #ffffff; 
+}
+h2 {
+  font-size: 24px;
+  color: #ffffff;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
+
+.img-circle { /* select all elements with the class="img-circle" */
+  border-radius: 30%;
+}
+.img-bordered { /* select all elements with the class="img-circle img-bordered" */
+  border: 2.5px solid blue;
+}
+.leader { /* select all elements with the class="img-circle img-bordered leader" */
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
+}
+
+
+.banner{
+  text-align: center;
+  color: white;
+  padding: 150px 0px;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("https://www.onlygfx.com/wp-content/uploads/2017/10/crayon-background-6-1024x753.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.banner h1 {
+  font-size: 40px;
+}
+.banner p {
+  opacity: 0.9;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+
+
+.card-white {
+  background-color: rgb(210, 210, 210);
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+.card-white img {
+  margin-bottom: 20px;
+}
+
+
+.footer {
+  background-color: black;
+  padding: 24px;
+  color: white;
+  text-align: center;
+}
+.footer a {
+  color: white;
+  font-size: 32px;
+}
